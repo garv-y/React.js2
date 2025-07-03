@@ -9,4 +9,5 @@ export interface NameFormProps {
 
 export interface SearchBarProps {
   onSearch: (query: string) => void;
+  value: string; // ✅ Add this line
 }
