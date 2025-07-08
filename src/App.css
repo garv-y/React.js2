@@ -1,0 +1,35 @@
+h1{
+    color: navy;
+    text-align: center;
+    margin: 20px;
+}
+
+button{
+    background-color: #e3134bb9;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 12px;
+    border: 2px solid #000000;
+}
+
+.toolbox-sidebar {
+  width: 250px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  border-left: 1px solid #dee2e6;
+}
